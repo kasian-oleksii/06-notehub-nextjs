@@ -10,7 +10,11 @@ export default async function NotesPage() {
   return <NotesClient initialData={initialData} />;
 }
 
-// import { QueryClient, HydrationBoundary, dehydrate } from '@tanstack/react-query';
+// import {
+//   QueryClient,
+//   HydrationBoundary,
+//   dehydrate,
+// } from '@tanstack/react-query';
 // import { fetchNotes } from '@/lib/api';
 // import NotesClient from './Notes.client';
 
